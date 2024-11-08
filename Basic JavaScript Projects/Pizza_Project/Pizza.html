@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Ordering App</title>
+    <link rel="stylesheet" href="Pizza_CSS/Pizza.css">
+</head>
+<body>
+
+    <div id="menu">
+        <h1>Pizza Ordering App</h1>
+        <input id="Order" type="button" onclick="getReceipt()" value="Place Order">
+        <form>
+            <div class="items">
+                <h3>Choose Pizza Size</h3>
+                <input type="radio" name="size" value="Personal Pizza"> Personal Pizza - $6<br>
+                <input type="radio" name="size" value="Small Pizza"> Small Pizza - $8<br>
+                <input type="radio" name="size" value="Medium Pizza"> Medium Pizza - $10<br>
+                <input type="radio" name="size" value="Large Pizza"> Large Pizza - $14<br>
+                <input type="radio" name="size" value="Extra Large Pizza"> Extra Large Pizza - $16<br>
+            </div>
+            <div class="items">
+                <h3>Choose Toppings</h3>
+                <input type="checkbox" name="Topping" value="Mushrooms"> Mushrooms<br>
+                <input type="checkbox" name="Topping" value="Onions"> Onions<br>
+                <input type="checkbox" name="Topping" value="Tomatoes"> Tomatoes<br>
+                <input type="checkbox" name="Topping" value="Olives"> Olives<br>
+                <input type="checkbox" name="Topping" value="Green Peppers"> Green Peppers<br>
+                <input type="checkbox" name="Topping" value="Pepperoni"> Pepperoni<br>
+                <input type="checkbox" name="Topping" value="Sausage"> Sausage<br>
+                <input type="checkbox" name="Topping" value="Bacon"> Bacon<br>
+                <input type="checkbox" name="Topping" value="Extra Cheese"> Extra Cheese<br>
+            </div>
+            <div id="showText"></div>
+            <div id="totalPrice"></div>
+        </form>
+    </div>
+
+    <!-- Place JavaScript at the end of the body to ensure HTML loads first -->
+    <script src="JS/Pizza.js"></script>
+</body>
+</html>
