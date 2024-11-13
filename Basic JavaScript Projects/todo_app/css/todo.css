@@ -1,0 +1,45 @@
+/* Existing styles */
+
+html {
+    font-family: "Avenir Next", Helvetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    max-width: 500px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Centering the to-do input and task list */
+#task,
+#add,
+#todos {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Styling the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    font-size: 14px;
+    color: #333;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+/* Ensures footer sticks to the bottom of the page */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* Add padding between items */
+.remove {
+    padding-bottom: 5px;
+}
